@@ -1,0 +1,116 @@
+body {
+	
+	width: 100%;
+	margin: 0;
+	background-image : url("bckgr2.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header.header{
+	position: sticky;
+	top: 0;
+	padding: 30px 30px;
+	overflow: hidden;
+	align-content: center;
+	background-color: #222930;
+	font-size: 30px;
+	align-items: center;
+	box-shadow: 0px 5px 25px #7B89EE;
+
+}
+
+header.header img{
+	height: 35px;
+	margin-left: 200px;
+	vertical-align: bottom;
+}
+
+header.header input{
+	height: 30px;
+	width: 350px;
+	float:right;
+
+}
+
+header.header a{
+	float: center;
+	color: #E3E8EC;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+	font-size: 30px;
+
+}
+header.header a:hover {
+  background-color: #7D8892;
+  color: black;
+}
+
+div.h1_bckgr{
+    background-image: linear-gradient(to top, rgba(0,0,0, 0.6), rgba(34,132,206, 0.6)), url('secondary_bckgr.jpg');
+    background-size: cover;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1{
+    font-family: "Courier New";
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+h1 > a{
+    color: #E3E8EC;
+    background-color: #7B89EE;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 4px;
+}
+
+#h1_title{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 60px;
+
+}
+
+#h1_text{
+    padding: 20px 50px 40px 50px; 
+    font-size: 20px;
+}
+
+h2{
+	height: 500px;
+}
+
+div.secondary_field{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #2b2d2f;  
+    color: #ddd;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.secondary_field h3{
+	height: 500px;
+}
+
+.secondary_field h4{
+	height: 500px;
+}
+
+
+
+
+h6{
+	text-align: center;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
