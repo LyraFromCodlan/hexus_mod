@@ -1,0 +1,22 @@
+#hello{
+	font-size: 50px;
+}
+body{
+	background - color: firebrick;
+}
+.re{
+	background-color: green;
+}
+
+
+
+.background_for_cite{
+
+height: 20px;
+
+width: 20px;
+
+background-image : url(“images\bckgr.jpg”);
+
+}
+
